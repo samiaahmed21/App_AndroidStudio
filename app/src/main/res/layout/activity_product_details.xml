@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProductDetails">
+    tools:context=".ProductDetails"
+    android:background="#36BC6B">
 
     <ImageView
         android:id="@+id/cart"
@@ -50,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/back2"
-        app:srcCompat="@drawable/b1" />
+        app:srcCompat="@drawable/p1" />
 
     <TextView
         android:id="@+id/productName"

@@ -26,7 +26,7 @@ public class ProductDetails extends AppCompatActivity {
         Intent i = getIntent();
 
         name = i.getStringExtra("name");
-        image = i.getIntExtra("image", R.drawable.b1);
+        image = i.getIntExtra("image", R.drawable.p1);
         price = i.getStringExtra("price");
         desc = i.getStringExtra("desc");
         qty = i.getStringExtra("qty");
