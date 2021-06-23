@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Register"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:layout_below="@+id/imageView"
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:hint="Enter Email: "
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:hint="Enter Password: "
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/edtEmail"
+        />
+
+    <Button
+        android:id="@+id/SIgn_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPassword"
+        android:text="Sign in "
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="50dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+
+
+
+</RelativeLayout>

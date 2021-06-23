@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imageView"
+        app:srcCompat="@drawable/logo"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_below="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:hint="Enter Email : "
+        android:textSize="15dp"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edtRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:hint="Create Password: "
+        android:textSize="15dp"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/edtEmail"
+        />
+    <EditText
+        android:id="@+id/edtRegPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:hint="Re-enter Password: "
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/edtRegPassword"
+        />
+
+    <RadioGroup
+        android:id="@+id/edtGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtRegPassword2" />
+    <TextView
+        android:id="@+id/edtradio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:text="Gender"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:layout_below="@+id/edtRegPassword2"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <RadioButton
+        android:id="@+id/edtmale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtGender"
+        android:layout_marginTop="29dp"
+        android:layout_toRightOf="@id/edtradio"
+        android:padding="10dp"
+        android:text="Male"
+        android:textSize="12dp" />
+
+    <RadioButton
+        android:id="@+id/edtfemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtradio"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-46dp"
+        android:layout_toRightOf="@id/edtmale"
+        android:text="Female"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtfemale"
+        android:text="Sign Up "
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:layout_below="@id/btnSignUp"
+        android:textColor="#0324DD"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        />
+    <Button
+        android:id="@+id/btnSignIn2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/text1"
+        android:text="Sign In "
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+</RelativeLayout>
