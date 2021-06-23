@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "495206967059",
+    "project_id": "grocery-9a752",
+    "storage_bucket": "grocery-9a752.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495206967059:android:99082bfd8120b7c91c5ce6",
+        "android_client_info": {
+          "package_name": "com.samia.final_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495206967059-dj8bjao1e60bi1aqufvhlb8bs233au9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM9v4TueDEIp0WouyzJWz3IK8Rndz4N3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495206967059-dj8bjao1e60bi1aqufvhlb8bs233au9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

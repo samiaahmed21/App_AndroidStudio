@@ -19,7 +19,7 @@
 
     <EditText
         android:layout_below="@+id/imageView"
-        android:id="@+id/edtEmail"
+        android:id="@+id/edtEmail2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawablePadding="10dp"
@@ -33,7 +33,7 @@
         />
 
     <EditText
-        android:id="@+id/edtPassword"
+        android:id="@+id/edtPassword2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawablePadding="10dp"
@@ -44,14 +44,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
-        android:layout_below="@+id/edtEmail"
+        android:layout_below="@+id/edtEmail2"
         />
 
     <Button
         android:id="@+id/SIgn_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/edtPassword"
+        android:layout_below="@id/edtPassword2"
         android:text="Sign in "
         android:textSize="15dp"
         android:textAllCaps="false"
