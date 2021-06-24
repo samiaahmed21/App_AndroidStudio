@@ -45,11 +45,7 @@ public class ProductDetails extends AppCompatActivity {
         proDesc.setText(desc);
         proQty.setText(qty);
         proUnit.setText(unit);
-
-
         img.setImageResource(image);
-
-
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

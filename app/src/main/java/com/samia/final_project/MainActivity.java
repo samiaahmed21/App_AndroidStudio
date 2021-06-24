@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.splashScreen);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
 
         discountRecyclerView = findViewById(R.id.discountedRecycler);
         categoryRecyclerView = findViewById(R.id.categoryRecycler);
@@ -76,10 +76,10 @@ public class MainActivity extends AppCompatActivity {
 
         // adding data to model
         recentlyViewedList = new ArrayList<>();
-        recentlyViewedList.add(new RecentlyViewed("Watermelon", "Watermelon has high water content and also provides some fiber.", "₹ 80", "1", "KG", R.drawable.card4, R.drawable.p4));
-        recentlyViewedList.add(new RecentlyViewed("Papaya", "Papayas are spherical or pear-shaped fruits that can be as long as 20 inches.", "₹ 85", "1", "KG", R.drawable.card3, R.drawable.p3));
-        recentlyViewedList.add(new RecentlyViewed("Strawberry", "The strawberry is a highly nutritious fruit, loaded with vitamin C.", "₹ 30", "1", "KG", R.drawable.card2, R.drawable.p1));
-        recentlyViewedList.add(new RecentlyViewed("Kiwi", "Full of nutrients like vitamin C, vitamin K, vitamin E, folate, and potassium.", "₹ 30", "1", "PC", R.drawable.card1, R.drawable.p2));
+        recentlyViewedList.add(new RecentlyViewed("Watermelon", "Watermelon has high water content and also provides some fiber.", "Rs. 80", "1", "KG", R.drawable.card4, R.drawable.p4));
+        recentlyViewedList.add(new RecentlyViewed("Papaya", "Papayas are spherical or pear-shaped fruits that can be as long as 20 inches.", "Rs 85", "1", "KG", R.drawable.card3, R.drawable.p3));
+        recentlyViewedList.add(new RecentlyViewed("Strawberry", "The strawberry is a highly nutritious fruit, loaded with vitamin C.", "Rs 30", "1", "KG", R.drawable.card2, R.drawable.p1));
+        recentlyViewedList.add(new RecentlyViewed("Kiwi", "Full of nutrients like vitamin C, vitamin K, vitamin E, folate, and potassium.", "Rs 30", "1", "PC", R.drawable.card1, R.drawable.p2));
 
         setDiscountedRecycler(discountedProductsList);
         setCategoryRecycler(categoryList);
